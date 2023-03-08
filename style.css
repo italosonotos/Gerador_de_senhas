@@ -9,7 +9,8 @@
 }
 
 body {
-  height: 100vh;
+  width: 100%; /**/
+  height: 100%;/**/
   display: flex;
   align-items: center;
   justify-content: center;
@@ -18,6 +19,7 @@ body {
 
 main {
   width: 300px;
+
   padding: 20px;
   box-shadow: 0 1px 10px #ccc;
   display: flex;
