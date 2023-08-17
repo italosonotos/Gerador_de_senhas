@@ -18,7 +18,7 @@ const UppercaseCaracters = LowercaseCaracters.map((item) => item.toUpperCase());
 infoLenght.innerHTML = lenInput.value;
 
 lenInput.addEventListener("change", () => {
-  infoLength.innerHTML = lenInput.value;
+  infoLenght.innerHTML = lenInput.value;
 });
 
 btn.addEventListener("click", () => {
